@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  NewsApp
+
+  Created by Никита Красавин on 04.11.2019.
+  
+*/
+
+"error" = "Error";
+"ok" = "OK";
+"feed" = "Feed";
+"articlesSearchPlaceholder" = "Type keywords to search...";
