@@ -1,5 +1,5 @@
 //
-//  AtricleMapperTest.swift
+//  ArticleMapperTest.swift
 //  NewsAppTests
 //
 //  Created by Никита Красавин on 04.11.2019.
@@ -8,7 +8,7 @@
 import XCTest
 @testable import NewsApp
 
-class AtricleMapperTest: XCTestCase {
+class ArticleMapperTest: XCTestCase {
 
     private let mapper = ArticleMapper()
     private let testData = ArticleMapperTestData()
