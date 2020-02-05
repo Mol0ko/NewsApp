@@ -7,7 +7,6 @@
 
 import UIKit
 import RxSwift
-import RxCocoa
 
 class FeedViewController: UIViewController {
     // MARK: - Properties

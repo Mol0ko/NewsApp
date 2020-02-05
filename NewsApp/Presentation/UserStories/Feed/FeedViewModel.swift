@@ -6,7 +6,6 @@
 //
 
 import Moya
-import RxMoya
 import RxSwift
 import RxCocoa
 
@@ -29,7 +28,7 @@ class FeedViewModel {
     let searchQuery = PublishRelay<String?>()
     let itemSelected = PublishRelay<Int>()
 
-    // MARK: - Lyfecycle
+    // MARK: - Lifecycle
 
     init(router: FeedRouter) {
         self.router = router
