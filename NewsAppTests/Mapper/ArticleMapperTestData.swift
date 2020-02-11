@@ -16,7 +16,7 @@ struct ArticleMapperTestData {
             title: "The Apple TV app is available on Roku",
             author: "Christine Fisher",
             description: "Apple wants Apple TV+ in as many places as possible",
-            publishedAt: "2019-10-15T13:36:00Z",
+            publishedAt: "",
             urlToImage: "https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png"
         ),
         ArticleResponse(
@@ -42,7 +42,7 @@ struct ArticleMapperTestData {
             title: "The Apple TV app is available on Roku",
             author: "Christine Fisher",
             description: "Apple wants Apple TV+ in as many places as possible",
-            publishedAt: "16:36 15.10.2019",
+            publishedAt: "",
             urlToImage: URL(string: "https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png")
         ),
         ArticleModel(

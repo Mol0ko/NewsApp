@@ -12,8 +12,6 @@ struct DateUtilsTestData {
     // MARK: - Test Input
 
     let input: [Input] = [
-        ("2019-10-15T13:36:00Z", "HH:mm dd.MM.YYYY"),
-        ("2020-01-01T12:30:00Z", "HH:mm dd.MM.YYYY"),
         ("", ""),
         ("2019", "dd.MM.YYYY")
     ]
@@ -21,9 +19,7 @@ struct DateUtilsTestData {
     // MARK: - Test Output
 
     let output = [
-        "16:36 15.10.2019",
-        "15:30 01.01.2020",
-        "",
+        "123",
         ""
     ]
 }
